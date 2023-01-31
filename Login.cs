@@ -47,6 +47,7 @@ namespace AnsarPOS
             SignUp signUp = new SignUp();
             signUp.Show();
             this.Hide();
+            this.Hide();
         }
 
         private void Login_Load(object sender, EventArgs e)
