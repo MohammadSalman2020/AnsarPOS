@@ -53,7 +53,7 @@ namespace AnsarPOS
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            this.TopMost = true;
         }
     }
 }

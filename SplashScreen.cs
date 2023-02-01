@@ -35,5 +35,13 @@ namespace AnsarPOS
         {
 
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            this.Hide();
+            MainFormPOS obj = new MainFormPOS();
+            obj.Show();
+        }
     }
 }
